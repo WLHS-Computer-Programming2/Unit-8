@@ -1,5 +1,5 @@
 # Unit 8 HW 1
-For this homework, it is okay to keep all of your code in one file.
+For this homework, it is okay to keep all of your code in one file. Submit this as one file called Unit8HW1.py
 ## Question 1:
 Write a class definition for a vehicle. A vehicle is defined by attributes:
 * Number of wheels
