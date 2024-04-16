@@ -5,6 +5,7 @@ Write a class definition for a vehicle. A vehicle is defined by attributes:
 * Number of wheels
 * Number of occupants
 * Color
+
 Decide the type of each data attribute and document this
 
 ## Question 2:
