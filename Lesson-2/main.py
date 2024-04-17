@@ -1,38 +1,28 @@
 # Point class goes here
-class Point():
+class Point:
     # constructor
-    def __init__(self,x_val:int,y_val:int):
-        self.x = x_val
-        self.y = y_val
+    def __init__(self,x_value:int,y_value:int):
+        self.x = x_value # attribute
+        self.y = y_value # attrubute
+    
+    # find distance
+    def distance(self,point_two):
+        x_distance_squared = (self.x-point_two.x)**2
+        y_distance_squared = (self.y-point_two.y)**2
+        return (x_distance_squared+y_distance_squared)**0.5
         
-    # distance method
-    # two parameters (self, second point)
-    # return Euclidean distance (Pythagorean)
-    def distance(self,second_point):
-        x_dist_squared = (self.x-second_point.x)**2
-        y_dist_squared = (self.y-second_point.y)**2
-        return (x_dist_squared+y_dist_squared)**0.5
-        
-    # start class - make a slope method that returns the slope
-    # import math at the top
-
-
+    # find slope
 
 def main():
-    c = Point(3,4)
-    print(f"The x coordinate of point c is {c.x}")
-    print(f"The y coordinate of point c is {c.y}")
-    # I have created an instance of the class Point
-    # called c with an x value of 3 and a y value 
-    # of 4
+    c = Point(3,4) 
+    # you created an instance of the Point class, an object,
+    # called c with an x value of 3 and a y value of 4 
+    print(c.x) # . is the access operator
+    # this prints the x value of the object called c
+    print(f"c=({c.x},{c.y})")
     origin = Point(0,0)
-    print(f"The x coordinate of point origin is {origin.x}")
-    print(f"The y coordinate of point origin is {origin.y}")
-    # This x is different - it belongs to the instance origin
-    # not the instance c
-    # In this case, x is the instance variable of origin
-    print(f"The distance between the two points is {c.distance(origin)}")
-    
+    distance = c.distance(origin)
+    print(f"The distance between c and origin is {distance}")
 
 if __name__ == '__main__':
     main()
