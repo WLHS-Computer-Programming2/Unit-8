@@ -11,8 +11,6 @@ class Point:
         y_distance_squared = (self.y-point_two.y)**2
         return (x_distance_squared+y_distance_squared)**0.5
         
-
-
     # find slope
 
 def main():
