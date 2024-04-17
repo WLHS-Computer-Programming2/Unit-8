@@ -4,6 +4,7 @@ class Point():
     def __init__(self,x_val:int,y_val:int):
         self.x = x_val
         self.y = y_val
+        
 
     # distance method
     # two parameters (self, second point)
