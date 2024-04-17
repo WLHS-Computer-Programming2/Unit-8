@@ -4,8 +4,9 @@ For this homework, it is okay to keep all of your code in one file. Submit this 
 Write a class definition for a vehicle. A vehicle is defined by attributes:
 * Number of wheels
 * Number of occupants
-* Color 
-* Decide the type of each data attribute and document this
+* Color
+
+Decide the type of each data attribute and document this
 
 ## Question 2:
 Create 2 vehicle instances using the class we wrote previously. 
@@ -33,7 +34,7 @@ which is always 5. This attribute is not passed in as a parameter, but
 is defined in the init.
 Modify the add_n_occupants methods such that if adding the occupants exceeds the max_occupancy allowed for that vehicle, 
   * you do not perform the increase, and
-  * you raise a ValueError with an apprpriate message
+  * you raise a ValueError with an appropriate message
 
 ## Question 5:
 Modify the Vehicle class __init__ such that if a vehicle is created without specifying a color then the color is set to "black".
