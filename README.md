@@ -13,6 +13,6 @@ We will start with our classes in the same module as our main, but we will talk 
 * [Lesson 2](https://github.com/WLHS-Computer-Programming2/Unit-8/tree/main/Lesson-2) - covers [Built-In Methods](https://codehs.com/lms/assignment/128203674) and [Operator Overloading](https://codehs.com/lms/assignment/128203684) in CodeHS
     * [Period 3]()
     * [Period 8]()
-    * [Homeword]()
+    * [Homework](https://github.com/WLHS-Computer-Programming2/Unit-8/blob/main/Lesson-2/Unit8HW2.md)
 * Lesson 3 - covers [Class Variables vs. Instance Variables](https://codehs.com/lms/assignment/128203692) and [Inheritance](https://codehs.com/lms/assignment/128203700) in CodeHS
 * Lesson 4 - covers [Hidden Attributes](https://codehs.com/lms/assignment/128203707) and [Namespaces](https://codehs.com/lms/assignment/128203714) in CodeHS
