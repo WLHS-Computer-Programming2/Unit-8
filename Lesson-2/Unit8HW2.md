@@ -23,10 +23,13 @@ sum = f1+f2
 print(sum)
 >>> 13/15
 ```
-Notice it prints outs nicely as a string, not a float. Include 3 test cases for each operation and use assert to make sure they pass. For example,
+Notice it prints outs nicely as a string, not a float. Include 3 test cases for each operation and try using assert to make sure they pass. This is optional, but give it a try to see how it works. For example,
 
 ```
 f1 = Fraction(1,5)
 f2 = Fraction(2,3)
-assert(f1+f2 == Fraction(13,15))
+try:
+    assert(f1+f2 == Fraction(13,15))
+except AssertionError
+    print("Assertion Error")
 ```
