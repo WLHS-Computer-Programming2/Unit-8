@@ -1,5 +1,5 @@
-# Unit 8 HW 1
-For this homework, it is okay to keep all of your code in one file. Submit this as one file called Unit8HW1.py
+# Unit 8 HW 3
+For this homework, it is okay to keep all of your code in one file. Submit this as one file called Unit8HW3.py
 ## Question 1:
 Make a class called Restaurant. The __init__() method for Restaurant should store two attributes: a restaurant_name and a cuisine_type. Make a method called describe_restaurant() that prints these two pieces of information, and a method called open_restaurant() that prints a message indicating that the restaurant is open.
 
