@@ -16,7 +16,7 @@ Make a class called User. Create two attributes called first_name and last_name,
 Create several instances representing different users, and call both methods for each user.
 
 ## Question 4:
-Start with your program from Question 3. Add an attribute called number_served with a default value of 0. Create an instance called restaurant from this class. Print the number of customers the restaurant has served, and then change this value and print it again.
+Start with your program from Question 1. Add an attribute called number_served with a default value of 0. Create an instance called restaurant from this class. Print the number of customers the restaurant has served, and then change this value and print it again.
 
 Add a method called ```set_number_served()``` that lets you set the number of customers that have been served. Call this method with a new number and print
 the value again.
