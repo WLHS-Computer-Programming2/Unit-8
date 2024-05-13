@@ -15,4 +15,7 @@ We will start with our classes in the same module as our main, but we will talk 
     * [Period 8](https://github.com/WLHS-Computer-Programming2/Unit-8/tree/main/Lesson-2/Period-8)
     * [Homework](https://github.com/WLHS-Computer-Programming2/Unit-8/blob/main/Lesson-2/Unit8HW2.md)
 * Lesson 3 - covers [Class Variables vs. Instance Variables](https://codehs.com/lms/assignment/128203692) and [Inheritance](https://codehs.com/lms/assignment/128203700) in CodeHS
+   * [Period 3](https://github.com/WLHS-Computer-Programming2/Unit-8/tree/main/Lesson-3/Period-3)
+   * [Period 8](https://github.com/WLHS-Computer-Programming2/Unit-8/tree/main/Lesson-3/Period-8)
+   * [Homework](https://github.com/WLHS-Computer-Programming2/Unit-8/blob/main/Lesson-3/Unit8HW3.md)
 * Lesson 4 - covers [Hidden Attributes](https://codehs.com/lms/assignment/128203707) and [Namespaces](https://codehs.com/lms/assignment/128203714) in CodeHS

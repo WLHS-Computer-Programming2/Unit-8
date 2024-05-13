@@ -1,26 +1,23 @@
 # Point class goes here
-<<<<<<< HEAD
 class Point:
     # constructor
     def __init__(self,x_value:int,y_value:int):
         self.x = x_value # attribute x takes value of x_value
         self.y = y_value # attrubute y takes value of y_value
-=======
 class Point():
     # constructor
     def __init__(self,x_val:int,y_val:int):
         self.x = x_val
         self.y = y_val
->>>>>>> 9319b8b2ef2275828e20f5b6bdd42ec7d732badc
     
     def __str__(self):
         return f"({self.x},{self.y})"
 
     def __eq__(self,point_two):
         return self.x == point_two.x and self.y == point_two.y
-<<<<<<< HEAD
     
-
+    def __truediv__(self,point_two):
+        return Point(self.x/point_two.x,self.y/point_two.y)
     # find distance
     def distance(self,point_two:'Point'):
         x_distance_squared = (self.x-point_two.x)**2
@@ -36,7 +33,9 @@ class Point():
 class Circle:
     pi = 3.1415 # type Circle.pi to use it
     def __init__(self, center:Point,radius:int):
-=======
+        self.x = center.x
+        self.y = center.y
+        self.radius = radius
 
     def __add__(self,point_two):
         return Point(self.x+point_two.x,self.y+point_two.y)
@@ -62,7 +61,6 @@ class Circle:
 class Circle:
     pi = 3.1415 # belongs to the class not instances of the class
     def __init__(self,center:Point,radius:int):
->>>>>>> 9319b8b2ef2275828e20f5b6bdd42ec7d732badc
         if isinstance(center,Point) and isinstance(radius,int):
             self.x = center.x
             self.y = center.y
@@ -71,7 +69,6 @@ class Circle:
             raise ValueError("Incorrect types")
     def __str__(self):
         return f"Center: ({self.x},{self.y})\nRadius: {self.radius}"
-<<<<<<< HEAD
 
     def __eq__(self,circle_two):
         return self.radius == circle_two.radius
@@ -94,7 +91,6 @@ def main():
 
 if __name__ == '__main__':
     main()
-=======
     def __eq__(sef):
         ref
     def area(self):
@@ -105,11 +101,10 @@ if __name__ == '__main__':
 
 def main():
     p = Point(3,4)
-    circle_one = Circle(p,5)
-    print(circle_one)
+    q = Point(6,12)
+    print(q/p)
 
     
 
 if __name__ == '__main__':
     main()
->>>>>>> 9319b8b2ef2275828e20f5b6bdd42ec7d732badc
