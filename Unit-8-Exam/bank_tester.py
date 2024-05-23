@@ -37,7 +37,7 @@ class TestBankAccount(unittest.TestCase):
         self.savings_account.withdraw(100)
         self.savings_account.withdraw(100)
         self.savings_account.withdraw(100)
-        self.savings_account.reset_withdrawals()
+        self.savings_account.reset_monthly_withdrawals()
         self.savings_account.withdraw(100)
         self.assertEqual(self.savings_account.get_balance(), 600)
 
